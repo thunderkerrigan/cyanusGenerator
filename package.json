@@ -1,11 +1,38 @@
 {
   "name": "cyanusgenerator",
   "version": "1.0.0",
-  "description": "",
+  "description": "mob name generator",
   "main": "MobGenerator.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "foo": "^1.0.0",
+    "path": "^0.12.7",
+    "promise": "^8.0.1",
+    "pug": "^2.0.0-rc.3",
+    "qs": "^6.5.0",
+    "shuffle-array": "^1.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thunderkerrigan/cyanusGenerator.git"
+  },
+  "keywords": [
+    "mob",
+    "name",
+    "french",
+    "français",
+    "nom",
+    "gangster"
+  ],
+  "author": "Thunderkerrigan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thunderkerrigan/cyanusGenerator/issues"
+  },
+  "homepage": "https://github.com/thunderkerrigan/cyanusGenerator#readme"
 }
