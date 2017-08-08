@@ -37,4 +37,5 @@ function generateName() {
     });
 }
 
-app.listen(1234);
+var port = process.env.PORT || 3000;
+app.listen(port);
