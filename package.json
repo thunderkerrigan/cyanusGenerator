@@ -13,10 +13,6 @@
     "qs": "^6.5.0",
     "shuffle-array": "^1.0.1"
   },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
-  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
