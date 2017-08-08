@@ -1,0 +1,103 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#progressbar .ui-progressbar-value {
+    background-color: green;
+}
+
+body {
+    /* background-image: url("backgroundForestry.jpg"); */
+    /* background-size: cover; */
+    /* font-size: medium; */
+}
+
+div {
+    position: absolute;
+    border-radius: 15px 50px;
+}
+
+.Title{
+    text-align: center;
+}
+
+#full{
+    width: 100%;
+    height: 100%;
+}
+
+#tableGrid{
+    width: 100%;
+    height: 90vh;
+}
+
+#left {
+    width: 25vw;
+    height: 96vh;
+    margin: 1vh 1vh;
+    background: rgba(135,206,250, 0.5);;
+}
+
+table{
+    height: 60vh;
+    overflow-y: scroll;
+    border-collapse: collapse;
+}
+
+thead, tbody, tr, td, th { display: block; color: whitesmoke; border-collapse: collapse; }
+
+
+#green .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background: rgba(50, 205, 50, 1);
+}
+
+#red .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background: rgba(220, 20, 60, 1);
+}
+
+#blue .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background: rgba(0, 191, 255, 1);
+}
+
+tr:after {
+            content: ' ';
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+.blurred {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    padding: 0; 
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.padded {
+    padding: 0 2% 0 2%;
+    width: 96%;
+    height: 96%;
+}
+
+#green{
+    /* background-color:  */
+    background: rgba(50, 205, 50, 0.65);
+    overflow:auto;
+}
+
+#red{
+    background: rgba(220, 20, 60, 0.65);
+    overflow:auto;
+}
+
+#blue{
+    background: rgba(00, 191, 255, 0.65);
+    overflow:auto;
+}
