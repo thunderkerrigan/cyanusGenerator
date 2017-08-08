@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Gist
- @thunderkerrigan
- Sign out
- Unwatch 1
-  Star 0
-  Fork 0 thunderkerrigan/cyanusGenerator
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Settings Insights 
-Branch: master Find file Copy pathcyanusGenerator/.gitignore
-a443f86  14 seconds ago
-@thunderkerrigan thunderkerrigan Initial commit
-1 contributor
-RawBlameHistory     
-60 lines (42 sloc)  884 Bytes
 # Logs
 logs
 *.log
@@ -75,6 +56,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
